@@ -1,0 +1,83 @@
+body {
+    background-color: #24312e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.promo {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Adjusting image sizes */
+header img {
+    width: 20%; /* Set a smaller width for all images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper spacing */
+}
+
+/* Specific styling for the third image */
+header img:nth-child(3) {
+    width: 20%; /* Set a smaller width for the third image */
+}
+/* Add styles for the video container */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    height: 100vh; /* Set height to full viewport height */
+}
+
+#instructionVideo {
+    width: 70%; /* Adjust video width as needed */
+    margin-bottom: 20px; /* Add some space between video and button */
+}
+
+#greenButton {
+    background-color: green;
+    color: white;
+    padding: 15px 30px; /* Larger button padding */
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0px; /* Position the button above the video */
+}
